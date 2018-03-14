@@ -1,3 +1,4 @@
 class Tag < ActiveRecord::Base
-  belongs_to :candidate
+  has_many :tag_candidates
+  has_many :candidates, :through => :tag_candidates
 end

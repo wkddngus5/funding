@@ -6,6 +6,9 @@ class CreateCandidates < ActiveRecord::Migration
       t.text :description
       t.text :youtube_url
       t.integer :like
+      t.integer :header_image_id
+      t.integer :category_id
+      t.integer :region_id
 
       t.timestamps null: false
     end
