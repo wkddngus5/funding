@@ -21,12 +21,14 @@ ActiveRecord::Schema.define(version: 20180314135036) do
     t.string   "email"
     t.text     "description"
     t.text     "youtube_url"
-    t.integer  "like"
-    t.integer  "header_image_id"
+    t.integer  "like_count"
+    t.integer  "support_count"
+    t.integer  "profile_img_id"
+    t.integer  "header_img_id"
     t.integer  "category_id"
     t.integer  "region_id"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "categories", force: :cascade do |t|
@@ -37,6 +39,7 @@ ActiveRecord::Schema.define(version: 20180314135036) do
 
   create_table "images", force: :cascade do |t|
     t.string   "title"
+    t.integer  "type"
     t.integer  "candidate_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false

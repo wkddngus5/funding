@@ -7,7 +7,8 @@ class CreateCandidates < ActiveRecord::Migration
       t.text :youtube_url
       t.integer :like_count
       t.integer :support_count
-      t.integer :header_image_id
+      t.integer :profile_img_id
+      t.integer :header_img_id
       t.integer :category_id
       t.integer :region_id
 

@@ -8,23 +8,23 @@
 
 candidate = Candidate.create([
   { name: '김사나', email: "yumi.ko.cheers@gmail.com", description: "좋은 세상을 만들고 싶습니다.",
-     youtube_url: "https://youtu.be/nKjBk-9Fxt0", like: 0, header_image_id: nil,
-     category_id: 1, region_id: 1},
+     youtube_url: "https://youtu.be/nKjBk-9Fxt0", like_count: 0, header_img_id: nil,
+     profile_img_id: nil, category_id: 1, region_id: 1},
   { name: '배수지', email: "suzy@gmail.com", description: "살 맛 나는 세상을 만들겠습니다.",
-     youtube_url: "https://youtu.be/lpzJNwur6Zk", like: 0, header_image_id: nil,
-     category_id: 2, region_id: 2},
+     youtube_url: "https://youtu.be/lpzJNwur6Zk", like_count: 0, header_img_id: nil,
+     profile_img_id: nil, category_id: 2, region_id: 2},
   { name: '임나연', email: "nayeon@gmail.com", description: "사람이 먼저다.",
-     youtube_url: "https://youtu.be/dattX18TK8U", like: 0, header_image_id: nil,
-     category_id: 3, region_id: 3},
+     youtube_url: "https://youtu.be/dattX18TK8U", like_count: 0, header_img_id: nil,
+     profile_img_id: nil, category_id: 3, region_id: 3},
   { name: '엄정화', email: "invitation@gmail.com", description: "초대합니다, 모두가 주인이 되는 세상",
-     youtube_url: "https://youtu.be/v-5jAM0Zt4w", like: 0, header_image_id: nil,
-     category_id: 1, region_id: 4},
+     youtube_url: "https://youtu.be/v-5jAM0Zt4w", like_count: 0, header_img_id: nil,
+     profile_img_id: nil, category_id: 1, region_id: 4},
   { name: '장다혜', email: "heize@gmail.com", description: "힘들 때 곁에 있어주는 사람이 되겠습니다.",
-     youtube_url: "https://youtu.be/uw_HR9jIJww", like: 0, header_image_id: nil,
-     category_id: 2, region_id: 5},
+     youtube_url: "https://youtu.be/uw_HR9jIJww", like_count: 0, header_img_id: nil,
+     profile_img_id: nil, category_id: 2, region_id: 5},
   { name: '유정연', email: "jeongyeon@gmail.com", description: "스케이트보드를 마음껏 타고 싶습니다..",
-     youtube_url: "https://youtu.be/QPv5Edpo9kU", like: 0, header_image_id: nil,
-     category_id: 3, region_id: 6}])
+     youtube_url: "https://youtu.be/QPv5Edpo9kU", like_count: 0, header_img_id: nil,
+     profile_img_id: nil, category_id: 3, region_id: 6}])
 
 tag = Tag.create([{ title: "빈 집 살리기 운동" }, { title: "오프라인이벤트" }, { title: "여행" }, { title: "길고양이프로젝트" }])
 
