@@ -1,5 +1,5 @@
 <%= form_tag({controller: :search, action: :find}, method: :get, :enforce_utf8 => false) do %>
   <%= search_field_tag :search, params[:search], :class => "sb-search-input", :placeholder => "검색어를 입력하세요" %>
-  <%= submit_tag "", name: nil, :type => :submit, :value => "", :class => "sb-search"%>
+  <%= submit_tag "", name: nil, :type => :submit, :value => "", :class => "sb-search-submit"%>
   <span class="sb-icon-search"> </span>
 <% end %>

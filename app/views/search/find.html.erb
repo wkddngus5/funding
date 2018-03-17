@@ -1,6 +1,8 @@
 <% if @candidates %>
   <% for cand in @candidates %>
-    <%= cand.name %>
+    <h1><%= cand.name %></h1>
+    <h2><%= cand.email %></h2>
+    <h2><%= cand.description %></h2>
   <% end %>
 <% else %>
   <h1>Hello!!</h1>
