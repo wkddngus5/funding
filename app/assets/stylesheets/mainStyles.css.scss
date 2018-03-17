@@ -80,11 +80,11 @@ font-family: 'Source Sans Pro', sans-serif;
 .sliderBox h3 span {
     display: block;
     color: #47cf73;
-	
+
 }
 
 #sl1{
-    background:url(../images/banner.jpg) no-repeat 0px 0px;
+    background:asset-data-url("banner.jpg") no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -92,7 +92,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	-ms-background-size:cover;
 }
 #sl2{
-    background:url(../images/banner1.jpg) no-repeat 0px 0px;
+    background:asset-data-url("banner1.jpg") no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -100,7 +100,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	-ms-background-size:cover;
 }
 #sl3{
-    background:url(../images/banner2.jpg) no-repeat 0px 0px;
+    background:asset-data-url("banner2.jpg") no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -119,7 +119,7 @@ font-family: 'Source Sans Pro', sans-serif;
     padding: 8px;
     background: rgba(0,0,0,0.05);
     cursor: pointer;
-	border-radius:0!important 
+	border-radius:0!important
 }
 img#sliderRight {
     right: 15px!important;
