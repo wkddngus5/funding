@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get '/search' => 'search#find', :as => 'search'
+
   resources :regions
 
   resources :tags

@@ -39,13 +39,13 @@
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
   				</button>
-  				<h1><a class="navbar-brand" href="index.html"><span>청</span>년정<span>치</span></a></h1>
+  				<h1><a class="navbar-brand" href="/"><span>청</span>년정<span>치</span></a></h1>
   			</div>
   			<!-- Collect the nav links, forms, and other content for toggling -->
   			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
   				<nav class="link-effect-2" id="link-effect-2">
   					<ul class="nav navbar-nav">
-  						<li class="active"><a href="index.html"><span data-hover="Home">메인</span></a></li>
+  						<li class="active"><a href="/"><span data-hover="Home">메인</span></a></li>
   						<li><a href="about.html"><span data-hover="About Us">청년펀딩Y는요</span></a></li>
   						<li><a href="events.html"><span data-hover="Events">펀딩 사용설명서</span></a></li>
   						<li class="dropdown">
@@ -87,11 +87,12 @@
 
   			<div class="search-box">
   				<div id="sb-search" class="sb-search">
-  					<form action="#" method="post">
+            <%= render 'layouts/search_form' %>
+  					<!-- <form action="/search" method="post">
   						<input class="sb-search-input" placeholder="검색어를 입력하세요" type="search" name="search" id="search">
   						<input class="sb-search-submit" type="submit" value="">
   						<span class="sb-icon-search"> </span>
-  					</form>
+  					</form> -->
   				</div>
   			</div>
 
