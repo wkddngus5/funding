@@ -28,8 +28,28 @@
     <%= f.text_area :youtube_url %>
   </div>
   <div class="field">
-    <%= f.label :like %><br>
-    <%= f.number_field :like %>
+    <%= f.label :like_count %><br>
+    <%= f.number_field :like_count %>
+  </div>
+  <div class="field">
+    <%= f.label :support_count %><br>
+    <%= f.number_field :support_count %>
+  </div>
+  <div class="field">
+    <%= f.label :profile_img_id %><br>
+    <%= f.number_field :profile_img_id %>
+  </div>
+  <div class="field">
+    <%= f.label :header_img_id %><br>
+    <%= f.number_field :header_img_id %>
+  </div>
+  <div class="field">
+    <%= f.label :category_id %><br>
+    <%= f.number_field :category_id %>
+  </div>
+  <div class="field">
+    <%= f.label :region_id %><br>
+    <%= f.number_field :region_id %>
   </div>
   <div class="actions">
     <%= f.submit %>

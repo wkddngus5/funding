@@ -5,11 +5,21 @@ one:
   email: MyString
   description: MyText
   youtube_url: MyText
-  like: 1
+  like_count: 1
+  support_count: 1
+  profile_img_id: 1
+  header_img_id: 1
+  category_id: 1
+  region_id: 1
 
 two:
   name: MyString
   email: MyString
   description: MyText
   youtube_url: MyText
-  like: 1
+  like_count: 1
+  support_count: 1
+  profile_img_id: 1
+  header_img_id: 1
+  category_id: 1
+  region_id: 1

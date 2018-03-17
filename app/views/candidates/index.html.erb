@@ -9,7 +9,12 @@
       <th>Email</th>
       <th>Description</th>
       <th>Youtube url</th>
-      <th>Like</th>
+      <th>Like count</th>
+      <th>Support count</th>
+      <th>Profile img</th>
+      <th>Header img</th>
+      <th>Category</th>
+      <th>Region</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -21,7 +26,12 @@
         <td><%= candidate.email %></td>
         <td><%= candidate.description %></td>
         <td><%= candidate.youtube_url %></td>
-        <td><%= candidate.like %></td>
+        <td><%= candidate.like_count %></td>
+        <td><%= candidate.support_count %></td>
+        <td><%= candidate.profile_img_id %></td>
+        <td><%= candidate.header_img_id %></td>
+        <td><%= candidate.category_id %></td>
+        <td><%= candidate.region_id %></td>
         <td><%= link_to 'Show', candidate %></td>
         <td><%= link_to 'Edit', edit_candidate_path(candidate) %></td>
         <td><%= link_to 'Destroy', candidate, method: :delete, data: { confirm: 'Are you sure?' } %></td>

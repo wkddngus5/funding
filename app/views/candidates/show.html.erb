@@ -21,8 +21,33 @@
 </p>
 
 <p>
-  <strong>Like:</strong>
-  <%= @candidate.like %>
+  <strong>Like count:</strong>
+  <%= @candidate.like_count %>
+</p>
+
+<p>
+  <strong>Support count:</strong>
+  <%= @candidate.support_count %>
+</p>
+
+<p>
+  <strong>Profile img:</strong>
+  <%= @candidate.profile_img_id %>
+</p>
+
+<p>
+  <strong>Header img:</strong>
+  <%= @candidate.header_img_id %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @candidate.category_id %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @candidate.region_id %>
 </p>
 
 <%= link_to 'Edit', edit_candidate_path(@candidate) %> |
