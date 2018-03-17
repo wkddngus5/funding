@@ -2,6 +2,11 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get '/about' => 'welcome#about'
+  get '/how-to' => 'welcome#how-to'
+  get '/change' => 'welcome#change'
+  get '/ask' => 'welcome#ask'
+
   get '/search' => 'search#find', :as => 'search'
 
   resources :regions
