@@ -11,6 +11,7 @@ class CreateCandidates < ActiveRecord::Migration
       t.integer :header_img_id
       t.integer :category_id
       t.integer :region_id
+      t.integer :status
 
       t.timestamps null: false
     end

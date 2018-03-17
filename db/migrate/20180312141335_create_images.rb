@@ -4,6 +4,7 @@ class CreateImages < ActiveRecord::Migration
       t.string :title
       t.integer :type
       t.integer :candidate_id
+      t.integer :status
 
       t.timestamps null: false
     end
