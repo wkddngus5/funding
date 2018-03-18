@@ -8,7 +8,7 @@
 
 candidate = Candidate.create([
   { name: '장다나', email: "yumi.ko.cheers@gmail.com", description: "좋은 세상을 만들고 싶습니다.",
-     youtube_url: "https://youtu.be/nKjBk-9Fxt0", like_count: 0, header_img_id: nil,
+     youtube_url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nKjBk-9Fxt0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>', like_count: 0, header_img_id: nil,
      profile_img_id: 6, category_id: 1, region_id: 1, status: 0},
   { name: '배수지', email: "suzy@gmail.com", description: "살 맛 나는 세상을 만들겠습니다.",
      youtube_url: "https://youtu.be/lpzJNwur6Zk", like_count: 0, header_img_id: nil,
