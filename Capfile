@@ -21,8 +21,9 @@ install_plugin Capistrano::SCM::Git
 require 'capistrano/rbenv'
 set :rbenv_type, :user
 set :rbenv_ruby, '2.3.1'
-set :rbenv_custom_path '/usr/bin/rbenv'
-#set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
+set :rbenv_path, '/usr'
+#set :rbenv_custom_path, '/usr/bin/rbenv'
+set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 
 
 require 'capistrano/rails'
