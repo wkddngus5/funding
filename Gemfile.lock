@@ -189,7 +189,7 @@ DEPENDENCIES
   capistrano (~> 3.7, >= 3.7.1)
   capistrano-passenger (~> 0.2.0)
   capistrano-rails (~> 1.2)
-  capistrano-rbenv (~> 2.1)
+  capistrano-rbenv
   carrierwave (~> 1.0)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
